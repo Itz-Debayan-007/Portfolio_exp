@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EE.Portfolio - Electrical Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">EE<span class="accent">.</span>Portfolio</div>
+      <div class="nav-links">
+        <a href="#home" class="nav-link active" data-section="home">Home</a>
+        <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+        <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content fade-in">
+        <p class="subtitle">ELECTRICAL ENGINEER</p>
+        <h1 class="hero-title">
+          Building the
+          <span class="gradient-text">Future</span>
+          with Code
+        </h1>
+        <p class="hero-description">
+          Bridging hardware and software through innovative web solutions. 
+          Specialized in HTML, CSS, and JavaScript for engineering applications.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+      
+      <div class="hero-visual fade-in-scale">
+        <div class="circle-container">
+          <div class="circle-blur"></div>
+          <div class="circle-bg"></div>
+          <div class="circle-ring outer"></div>
+          <div class="circle-ring inner"></div>
+          <div class="circle-icon">⚡</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="subtitle">EXPERTISE</p>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skills-bars">
+          <div class="skill-item" data-delay="0">
+            <div class="skill-header">
+              <span class="skill-name">HTML</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="90" style="background-color: #E34F26;"></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-delay="100">
+            <div class="skill-header">
+              <span class="skill-name">CSS</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="85" style="background-color: #1572B6;"></div>
+            </div>
+          </div>
+
+          <div class="skill-item" data-delay="200">
+            <div class="skill-header">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="80" style="background-color: #F7DF1E;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card" data-delay="0">
+            <span class="service-icon">⚡</span>
+            <h3 class="service-title">Circuit Design</h3>
+            <p class="service-desc">PCB layout and schematic design</p>
+          </div>
+          <div class="service-card" data-delay="100">
+            <span class="service-icon">🔌</span>
+            <h3 class="service-title">Embedded Systems</h3>
+            <p class="service-desc">Microcontroller programming</p>
+          </div>
+          <div class="service-card" data-delay="200">
+            <span class="service-icon">💡</span>
+            <h3 class="service-title">Web Interfaces</h3>
+            <p class="service-desc">HTML/CSS/JS for hardware control</p>
+          </div>
+          <div class="service-card" data-delay="300">
+            <span class="service-icon">📊</span>
+            <h3 class="service-title">Data Visualization</h3>
+            <p class="service-desc">Real-time sensor dashboards</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="subtitle">PORTFOLIO</p>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card" data-delay="0">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80" alt="IoT Dashboard">
+            <div class="project-overlay"></div>
+          </div>
+          <h3 class="project-title">IoT Dashboard</h3>
+          <p class="project-desc">Real-time monitoring system for industrial sensors using HTML/CSS/JS</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-delay="100">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=600&q=80" alt="Circuit Simulator">
+            <div class="project-overlay"></div>
+          </div>
+          <h3 class="project-title">Circuit Simulator</h3>
+          <p class="project-desc">Interactive circuit visualization tool for electrical engineering education</p>
+          <div class="project-tags">
+            <span class="tag">JavaScript</span>
+            <span class="tag">Canvas API</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-delay="200">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="Power Grid Monitor">
+            <div class="project-overlay"></div>
+          </div>
+          <h3 class="project-title">Power Grid Monitor</h3>
+          <p class="project-desc">Web-based interface for monitoring electrical grid performance</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container contact-container">
+      <div class="section-header">
+        <p class="subtitle">GET IN TOUCH</p>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-desc">Have a project in mind? I'd love to hear about it.</p>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" class="form-input" required>
+          <input type="email" placeholder="Your Email" class="form-input" required>
+        </div>
+        <textarea placeholder="Your Message" rows="5" class="form-textarea" required></textarea>
+        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="footer-text">© 2024 EE.Portfolio. Built with HTML, CSS & JavaScript.</p>
+      <div class="footer-links">
+        <a href="#" class="footer-link">GitHub</a>
+        <a href="#" class="footer-link">LinkedIn</a>
+        <a href="#" class="footer-link">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
